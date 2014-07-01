@@ -17,6 +17,8 @@
                     <connections>
                         <segue destination="ah1-kv-TMk" kind="relationship" relationship="viewControllers" id="IE4-kk-uiS"/>
                         <segue destination="Kxh-cl-ZHJ" kind="relationship" relationship="viewControllers" id="O3c-WT-1Pj"/>
+                        <segue destination="zyr-pG-q7y" kind="relationship" relationship="viewControllers" id="HRi-4j-yfN"/>
+                        <segue destination="G7y-Ma-YgF" kind="relationship" relationship="viewControllers" id="4sH-PJ-qpV"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
@@ -43,7 +45,6 @@
         <!--Second View Controller - Item-->
         <scene sceneID="cB6-FM-RRj">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fth-lv-yvG" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="eUe-7N-RoV" customClass="SecondViewController" customModule="Day02" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nKj-8n-itl"/>
@@ -69,8 +70,46 @@
                     <tabBarItem key="tabBarItem" title="Item" id="57g-bc-BWM"/>
                     <navigationItem key="navigationItem" id="WeT-46-a1K"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fth-lv-yvG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2535" y="2184"/>
+        </scene>
+        <!--Navigation Controller - 列表2-->
+        <scene sceneID="ndC-Dr-sHN">
+            <objects>
+                <navigationController id="G7y-Ma-YgF" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="列表2" image="first" id="QtD-IW-bFK"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="bXP-7h-GIw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="AE1-tf-nUm" kind="relationship" relationship="rootViewController" id="FW1-ED-gzp"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GIm-ac-zZv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2384" y="2752"/>
+        </scene>
+        <!--Table View2 View Controller-->
+        <scene sceneID="Uex-Z3-g5C">
+            <objects>
+                <viewController id="AE1-tf-nUm" customClass="TableView2ViewController" customModule="Day02" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HUA-PR-pav"/>
+                        <viewControllerLayoutGuide type="bottom" id="RhT-sh-qKx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lt9-XO-enA">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="6sP-Rm-hfz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fwI-GK-Pdz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2984" y="2828"/>
         </scene>
         <!--FirstUI View Controller - Item-->
         <scene sceneID="Vlk-uu-ep9">
@@ -103,6 +142,52 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nBN-uc-EMy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2529" y="1081"/>
+        </scene>
+        <!--Navigation Controller - 列表Tab-->
+        <scene sceneID="XSm-Qt-3yQ">
+            <objects>
+                <navigationController id="zyr-pG-q7y" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="列表Tab" image="second" id="rbK-Y9-wFc"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="SNt-Qa-TKV">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="LV5-V2-yDP" kind="relationship" relationship="rootViewController" id="7h7-X5-nJB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eBp-SA-Zny" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2659" y="1659"/>
+        </scene>
+        <!--My Tab View Controller-->
+        <scene sceneID="1Uh-lR-7y6">
+            <objects>
+                <viewController id="LV5-V2-yDP" customClass="MyTabViewController" customModule="Day02" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="laW-0O-c6m"/>
+                        <viewControllerLayoutGuide type="bottom" id="kSk-eF-1TS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QP2-JS-2xe">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="osz-nx-GDg">
+                                <rect key="frame" x="0.0" y="8" width="480" height="434"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="lcm-2J-2s6"/>
+                    <connections>
+                        <outlet property="MyTabView" destination="osz-nx-GDg" id="hEA-EW-rVs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0uh-Ze-85z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3368" y="1640"/>
         </scene>
         <!--Navigation Controller - Tab1-->
         <scene sceneID="Byr-os-MaX">

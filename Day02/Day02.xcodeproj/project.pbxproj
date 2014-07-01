@@ -16,6 +16,8 @@
 		22C647FB1955805300FCEE63 /* RootUITabBarControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C647FA1955805300FCEE63 /* RootUITabBarControllerViewController.swift */; };
 		22C647FD1955851E00FCEE63 /* FirstClickToViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C647FC1955851E00FCEE63 /* FirstClickToViewController.swift */; };
 		22C647FF1955852D00FCEE63 /* SecondClickToViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C647FE1955852D00FCEE63 /* SecondClickToViewController.swift */; };
+		22E1F218195EA73200CA7F7A /* MyTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E1F217195EA73200CA7F7A /* MyTabViewController.swift */; };
+		22E1F21A195EA91500CA7F7A /* TableView2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E1F219195EA91500CA7F7A /* TableView2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		22C647FA1955805300FCEE63 /* RootUITabBarControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootUITabBarControllerViewController.swift; sourceTree = "<group>"; };
 		22C647FC1955851E00FCEE63 /* FirstClickToViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstClickToViewController.swift; sourceTree = "<group>"; };
 		22C647FE1955852D00FCEE63 /* SecondClickToViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondClickToViewController.swift; sourceTree = "<group>"; };
+		22E1F217195EA73200CA7F7A /* MyTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabViewController.swift; sourceTree = "<group>"; };
+		22E1F219195EA91500CA7F7A /* TableView2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableView2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,8 @@
 				22C647FA1955805300FCEE63 /* RootUITabBarControllerViewController.swift */,
 				22C647FC1955851E00FCEE63 /* FirstClickToViewController.swift */,
 				22C647FE1955852D00FCEE63 /* SecondClickToViewController.swift */,
+				22E1F217195EA73200CA7F7A /* MyTabViewController.swift */,
+				22E1F219195EA91500CA7F7A /* TableView2ViewController.swift */,
 			);
 			path = Day02;
 			sourceTree = "<group>";
@@ -225,7 +231,9 @@
 				22C647D819557B7100FCEE63 /* AppDelegate.swift in Sources */,
 				22C647FB1955805300FCEE63 /* RootUITabBarControllerViewController.swift in Sources */,
 				22C647F719557D4E00FCEE63 /* FirstUIViewController.swift in Sources */,
+				22E1F21A195EA91500CA7F7A /* TableView2ViewController.swift in Sources */,
 				22C647FD1955851E00FCEE63 /* FirstClickToViewController.swift in Sources */,
+				22E1F218195EA73200CA7F7A /* MyTabViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -29,11 +29,11 @@ class SecondViewController: UIViewController {
     }
     
     override func viewWillAppear(animated: Bool) {
-        var animation:CATransition = CATransition();
-        animation.duration = CFTimeInterval(1);
-        animation.type = kCATransitionMoveIn;
-        animation.subtype = kCATransitionFromRight
-        self.tabBarController.view.layer.addAnimation(animation, forKey: nil);
+//        var animation:CATransition = CATransition();
+//        animation.duration = CFTimeInterval(1);
+//        animation.type = kCATransitionMoveIn;
+//        animation.subtype = kCATransitionFromRight
+//        self.tabBarController.view.layer.addAnimation(animation, forKey: nil);
     }
 
     /*

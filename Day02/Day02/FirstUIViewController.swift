@@ -43,10 +43,10 @@ class FirstUIViewController: UIViewController {
 //        animation.type = "moveIn"
 //        animation.timingFunction = CAMediaTimingFunction(name: "easeInEaseOut")
 //        self.tabBarController.view.layer.addAnimation(animation, forKey: nil)
-        var animation:CATransition = CATransition();
-        animation.duration = CFTimeInterval(1);
-        animation.type = kCATransitionMoveIn;
-        self.tabBarController.view.layer.addAnimation(animation, forKey: nil);
+//        var animation:CATransition = CATransition();
+//        animation.duration = CFTimeInterval(1);
+//        animation.type = kCATransitionMoveIn;
+//        self.tabBarController.view.layer.addAnimation(animation, forKey: nil);
 //        animation.subtype = kCATransitionFromRight;
 //        animation.timingFunction = CAMediaTimingFunction(name: "easeInEaseOut")
         
